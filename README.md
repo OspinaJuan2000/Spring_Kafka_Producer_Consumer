@@ -151,6 +151,6 @@ public void read(String message) throws JsonProcessingException {
 
 - Tener docker instalado y ejecutar el comando `docker-compose up -d` para montar el Apache Kafka.
 - Levantar el proyecto kafka-consumer y kafka-producer.
-- Para probar el servicio de productor, acceder a `http://localhost:8000/swagger-ui/index.html`y consumir el único servicio allí disponible o hacerlo desde postman con la siguiente estructura y endpoint:
-  `{ "author": "string", "content": "string" }, http://localhost:8000/message/send`
+- Para probar el servicio de productor, acceder a `http://localhost:8000/swagger-ui/index.html`y consumir el único servicio allí disponible o hacerlo desde [postman](https://documenter.getpostman.com/view/11875051/Uz5KnaYa)
 - Revisar los mensajes en la consola del proyecto del consumidor.
+
